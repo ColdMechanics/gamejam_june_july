@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "17f3a3ba-018e-421f-8cfe-d149b244f92f",
+            "Value": {
+                "id": "9dee1228-3168-4ee7-a095-6b1c93d5d287",
+                "resourcePath": "sprites\\s_lobby\\s_lobby.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "18f0938f-a3d6-4b26-b9ed-ee30767a8ce0",
             "Value": {
                 "id": "d7bb89b8-fa28-439e-b06c-375bba75c8cb",
@@ -79,18 +87,18 @@
             }
         },
         {
-            "Key": "1f10666c-d34b-4f77-bc1c-d6ffafe30ed8",
-            "Value": {
-                "id": "1cb9ab64-17a2-4d3d-baa9-5520b6a38971",
-                "resourcePath": "sprites\\s_playerjump\\s_playerjump.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1d103546-1097-4979-9d52-1b6664f9323d",
             "Value": {
                 "id": "739e9f30-531f-4c44-89d8-fe92450b96d3",
                 "resourcePath": "sprites\\s_exit_sign\\s_exit_sign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1f10666c-d34b-4f77-bc1c-d6ffafe30ed8",
+            "Value": {
+                "id": "1cb9ab64-17a2-4d3d-baa9-5520b6a38971",
+                "resourcePath": "sprites\\s_playerjump\\s_playerjump.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -311,14 +319,6 @@
             }
         },
         {
-            "Key": "ce2170a8-7291-42b3-a463-5c150d4e3a9f",
-            "Value": {
-                "id": "d33b1253-1a2b-4e07-9b4c-0ac56d40e2c9",
-                "resourcePath": "sprites\\s_lobby\\s_lobby.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d1ada9ba-9c89-4267-84e6-bd1207c58d1e",
             "Value": {
                 "id": "d9004c9b-f0e3-4d1c-8515-e37a1795c147",
@@ -343,19 +343,19 @@
             }
         },
         {
-            "Key": "f411b976-f16e-4a7c-a01d-92631fe0c7e3",
-            "Value": {
-                "id": "1fb2d8d7-f14b-4c55-814e-f15eb5b00157",
-                "resourcePath": "sprites\\s_playermort\\s_playermort.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "eddb73f4-3ded-4311-b3b1-6d8f2a282faf",
             "Value": {
                 "id": "b5976384-b670-4458-8d24-0fda7bbb1d7d",
                 "resourcePath": "objects\\o_bridge\\o_bridge.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f411b976-f16e-4a7c-a01d-92631fe0c7e3",
+            "Value": {
+                "id": "1fb2d8d7-f14b-4c55-814e-f15eb5b00157",
+                "resourcePath": "sprites\\s_playermort\\s_playermort.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
