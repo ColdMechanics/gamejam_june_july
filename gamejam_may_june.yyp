@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1f10666c-d34b-4f77-bc1c-d6ffafe30ed8",
+            "Value": {
+                "id": "1cb9ab64-17a2-4d3d-baa9-5520b6a38971",
+                "resourcePath": "sprites\\s_playerjump\\s_playerjump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e21fa68-a889-4520-8759-a53beedb3b9c",
             "Value": {
                 "id": "8251e3e0-4126-4fe4-a0d0-0a8e0915055a",
@@ -100,6 +108,14 @@
                 "id": "5d1bd87a-9b97-4776-b42c-4b712b786ff1",
                 "resourcePath": "views\\5bc160cb-9a09-4394-b5e1-dd77869d0e0b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "63b05607-1a3a-40b1-8f4c-a943ac00d8d4",
+            "Value": {
+                "id": "8effe4a0-6f20-4406-9340-e3ecdb87065d",
+                "resourcePath": "sprites\\s_playeridle\\s_playeridle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -148,6 +164,14 @@
                 "id": "e7e00c7b-f095-4899-a6dc-e1bcf0f57dc7",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b12a743c-2d1c-428d-97d6-1f4fff53a19d",
+            "Value": {
+                "id": "c4e8299e-39cf-4a1c-b05e-11dd772739a2",
+                "resourcePath": "sprites\\s_playerwalk\\s_playerwalk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -207,11 +231,27 @@
             }
         },
         {
+            "Key": "e02bf24a-d852-4909-bf52-173f019951dc",
+            "Value": {
+                "id": "89b3fb86-f787-47a7-93d4-a72d550c86d8",
+                "resourcePath": "sprites\\s_teleportation\\s_teleportation.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e798116c-fe2f-466c-9a5f-9fcbbe192fef",
             "Value": {
                 "id": "80e39f6c-198f-47c7-9adf-2f7bf4dcf370",
                 "resourcePath": "views\\e798116c-fe2f-466c-9a5f-9fcbbe192fef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f411b976-f16e-4a7c-a01d-92631fe0c7e3",
+            "Value": {
+                "id": "1fb2d8d7-f14b-4c55-814e-f15eb5b00157",
+                "resourcePath": "sprites\\s_playermort\\s_playermort.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
