@@ -4,14 +4,14 @@
 var _collideWithPlayer = false;
 
 if(_collideWithPlayer) {
-	switch(door_state) {
-		case "Open":
+	switch(currentDoorState) {
+		case DoorState.Open:
 			image_index = 0;
 			break;
-		case "Fail":
+		case DoorState.Fail:
 			image_index = 5;
 			break;
-		case "Success":
+		case DoorState.Success:
 			image_index = 4;
 			break;
 		default:
@@ -25,14 +25,14 @@ if(_collideWithPlayer) {
 	}
 }
 else {
-	switch(door_state) {
-		case "Open":
+	switch(currentDoorState) {
+		case DoorState.Open:
 			image_index = 2;
 			break;
-		case "Fail":
+		case DoorState.Fail:
 			image_index = 7;
 			break;
-		case "Success":
+		case DoorState.Success:
 			image_index = 6;
 			break;
 		default:

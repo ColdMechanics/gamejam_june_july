@@ -1,13 +1,22 @@
 /// @description Initialize Door Image
 
-switch(door_state) {
-	case "Open":
+enum DoorState {
+	Open,
+	Fail,
+	Success,
+	Close
+}
+
+currentDoorState = DoorState.Close;
+
+switch(currentDoorState) {
+	case DoorState.Open:
 		image_index = 2;
 		break;
-	case "Fail":
+	case DoorState.Fail:
 		image_index = 7;
 		break;
-	case "Success":
+	case DoorState.Success:
 		image_index = 6;
 		break;
 	default:

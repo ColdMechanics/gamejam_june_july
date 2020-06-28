@@ -1,38 +1,28 @@
 {
-    "id": "ba60c834-1e05-42ba-b7ae-d23e3930128e",
+    "id": "30284f78-c443-44b2-8e57-490ea140a0f2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_door",
+    "name": "o_exit_sign",
     "eventList": [
         {
-            "id": "df50a113-259a-4861-a0ab-7e73ef7fa205",
+            "id": "2d270d0a-944b-45a6-a0e4-697c1294175f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ba60c834-1e05-42ba-b7ae-d23e3930128e"
+            "m_owner": "30284f78-c443-44b2-8e57-490ea140a0f2"
         },
         {
-            "id": "6bfc723f-aa87-43ed-83c7-8a261e1ebdfe",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "ba60c834-1e05-42ba-b7ae-d23e3930128e"
-        },
-        {
-            "id": "e1b6943f-8b28-4f34-9e46-81eb3051963c",
+            "id": "1ee3da8d-90fe-4b30-82de-1e26901a0f36",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "ba60c834-1e05-42ba-b7ae-d23e3930128e"
+            "m_owner": "30284f78-c443-44b2-8e57-490ea140a0f2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "43e3d662-70ae-4ff9-97e9-eedf7e5be367",
+            "id": "2c963987-b43c-4598-8b5c-57a1e5055340",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "noone",
-            "varName": "next_room",
-            "varType": 5
+            "value": "False",
+            "varName": "flashing",
+            "varType": 3
         }
     ],
     "solid": false,
-    "spriteId": "cd0a2a7b-bbe1-4650-9179-41ffec8052e2",
+    "spriteId": "1d103546-1097-4979-9d52-1b6664f9323d",
     "visible": true
 }
