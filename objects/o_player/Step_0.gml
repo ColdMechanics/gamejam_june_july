@@ -11,18 +11,14 @@ up_release = keyboard_check_released(vk_up);
 #region State Machine
 switch(current_player_state) {
 #region Moving state
-	case Player.moving:
-		if(right || left) {
-			show_debug_message("Move!");
-		}
-		
+	case Player.moving:	
 		if(speed_x == 0) {
 			sprite_index = s_player_idle;
 		} else {
 			sprite_index = s_player_walk;
 		}
 		// Check if player if on the ground
-		if(!place_meeting(x, y + 1, o_obstacle)) {
+		if(!place_meeting(x, y + 1, o_ph_obstacle)) {
 			speed_y += gravity_acceleration;
 			
 			// Player is in the air
@@ -43,7 +39,7 @@ switch(current_player_state) {
 		}
 		// Change direction of sprite
 		if(speed_x != 0) {
-			image_xscale = sign(speed_x) * -1;
+			image_xscale = sign(speed_x);
 		}
 		// Check moving right or left
 		if(right or left) {
@@ -52,6 +48,8 @@ switch(current_player_state) {
 		} else {
 			apply_friction(acceleration);
 		}
+		
+		move(o_ph_obstacle);
 	break;
 #endregion
 #region Jumping state

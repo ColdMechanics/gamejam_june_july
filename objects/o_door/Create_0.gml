@@ -8,18 +8,6 @@ enum DoorState {
 }
 
 currentDoorState = DoorState.Close;
+playerInFront = false;
 
-switch(currentDoorState) {
-	case DoorState.Open:
-		image_index = 2;
-		break;
-	case DoorState.Fail:
-		image_index = 7;
-		break;
-	case DoorState.Success:
-		image_index = 6;
-		break;
-	default:
-		image_index = 3;
-		break;
-}
+door_sprite_selection();

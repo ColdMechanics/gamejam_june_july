@@ -1,23 +1,14 @@
 {
-    "id": "d4c4ffa2-a2c2-4127-846c-d087a3f14839",
+    "id": "977ebb89-645b-4bbf-8c8f-dbdef97cb5a5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_bridge",
+    "name": "o_ph_killing",
     "eventList": [
-        {
-            "id": "74492a42-040f-4504-b57c-fdb7c1ffbc02",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "d4c4ffa2-a2c2-4127-846c-d087a3f14839"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "a4408499-b908-4930-8cc1-ffea39318a8c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b74431c2-ea37-4c3d-b887-127ab4a3e33b",
+    "spriteId": "c8893983-ef2d-44a7-b3d2-29119274af1b",
     "visible": true
 }
