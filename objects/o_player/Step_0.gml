@@ -2,6 +2,7 @@
 
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
+shift = keyboard_check(vk_shift);
 up = keyboard_check(vk_up);
 down = keyboard_check(vk_down);
 up_release = keyboard_check_released(vk_up);
@@ -16,6 +17,8 @@ switch(current_player_state) {
 			sprite_index = s_player_idle;
 		} else {
 			sprite_index = s_player_walk;
+			
+			image_speed = shift ? 2 : 1;
 		}
 		// Check if player if on the ground
 		if(!place_meeting(x, y + 1, o_ph_obstacle)) {
@@ -44,7 +47,8 @@ switch(current_player_state) {
 		// Check moving right or left
 		if(right or left) {
 			speed_x += (right - left) * acceleration;
-			speed_x = clamp(speed_x, -max_speed, max_speed);
+			var _current_max = shift ? running_max_speed : max_speed;
+			speed_x = clamp(speed_x, -_current_max, _current_max);
 		} else {
 			apply_friction(acceleration);
 		}

@@ -13,7 +13,7 @@ if(place_meeting(x + speed_x, y, _collision_object)) {
 
 // Vertical collision
 if(place_meeting(x, y + speed_y, _collision_object)) {
-		while(!place_meeting(x, y + sign(speed_y), _collision_object)) {
+	while(!place_meeting(x, y + sign(speed_y), _collision_object)) {
 		y += sign(speed_y);
 	}
 	speed_y = 0;

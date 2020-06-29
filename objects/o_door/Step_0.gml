@@ -1,15 +1,15 @@
 /// @description Change Door Sprite on Player Contact
 
-playerInFront = place_meeting(x, y, o_player);
+player_in_front = place_meeting(x, y, o_player);
 
-if(playerInFront) {
+if(player_in_front) {
 	door_sprite_selection();
 	
 	if(keyboard_check(vk_space)) {
 		var _player = instance_find(o_player, 0);
 		
-		_player.image_alpha = 0;
-		currentDoorState = DoorState.Open;
+		_player.current_player_state = Player.door;
+		current_door_state = DoorState.Open;
 		
 		alarm[0] = 60;
 	}

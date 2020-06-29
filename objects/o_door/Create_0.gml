@@ -7,7 +7,7 @@ enum DoorState {
 	Close
 }
 
-currentDoorState = DoorState.Close;
-playerInFront = false;
+current_door_state = DoorState.Close;
+player_in_front = false;
 
 door_sprite_selection();
