@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1fc3e0bb-fe1b-45ea-81a4-92600533768f",
+            "Value": {
+                "id": "b81f0848-ec42-410b-8494-ddc21a9b95ee",
+                "resourcePath": "objects\\o_bridge_logic\\o_bridge_logic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c76cea5-a8f8-4507-bbcd-9364614d9a7a",
             "Value": {
                 "id": "a8113545-a9f8-4609-92e9-868031686d1a",
