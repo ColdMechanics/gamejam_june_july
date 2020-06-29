@@ -65,6 +65,20 @@
             "value": "noone",
             "varName": "next_room",
             "varType": 5
+        },
+        {
+            "id": "b0700ed8-afe6-46d0-ad37-f46ace08276d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "99",
+            "varName": "door_id",
+            "varType": 1
         }
     ],
     "solid": false,
