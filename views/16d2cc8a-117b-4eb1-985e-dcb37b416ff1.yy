@@ -16,7 +16,11 @@
         "753c83e3-6466-4170-b171-febe0e070499",
         "178fab4d-8700-4ec5-8a89-b249721f2d49",
         "3c362080-0d90-4066-8bf4-e1dfeeea37cf",
-        "537e1426-96e2-4bf1-8230-2fae4fad34da"
+        "537e1426-96e2-4bf1-8230-2fae4fad34da",
+        "38d211eb-6572-4404-bf0f-5c8cb0fd34d3",
+        "df75b531-be7a-4137-8152-ef31da2f9b04",
+        "35f9fe2c-c7be-4419-ab7d-f9894a320580",
+        "9f6796f7-b865-47c1-bb32-d654b498f147"
     ],
     "filterType": "GMSprite",
     "folderName": "enigme_4",

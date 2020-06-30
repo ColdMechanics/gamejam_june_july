@@ -37,7 +37,7 @@ switch(current_player_state) {
 			
 			// Jumping code
 			if (up and can_jump) {
-				show_debug_message("Jump!");
+				speed_y = -10;
 			}
 		}
 		// Change direction of sprite
