@@ -199,11 +199,27 @@
             }
         },
         {
+            "Key": "35f9fe2c-c7be-4419-ab7d-f9894a320580",
+            "Value": {
+                "id": "f3941880-a120-4f6b-b300-b8441e6897b0",
+                "resourcePath": "sprites\\s_murenigme4\\s_murenigme4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "37b1b9f3-6568-49d6-9f17-bdb6c0fba8dc",
             "Value": {
                 "id": "528108b0-cee7-4541-b721-04c743ab4af0",
                 "resourcePath": "tilesets\\ts_ground\\ts_ground.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "38d211eb-6572-4404-bf0f-5c8cb0fd34d3",
+            "Value": {
+                "id": "e6804fb1-b982-4a47-8ded-2828e88fbbb6",
+                "resourcePath": "sprites\\s_plancherenigme4\\s_plancherenigme4.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -399,6 +415,14 @@
             }
         },
         {
+            "Key": "9f6796f7-b865-47c1-bb32-d654b498f147",
+            "Value": {
+                "id": "b1bc215a-f7b2-4f4f-b5d1-afab16b85f96",
+                "resourcePath": "sprites\\s_coteenigme4\\s_coteenigme4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a02eefb0-6ded-4d10-8881-a5737cddde6e",
             "Value": {
                 "id": "6cf22c41-14ca-42c0-a42d-075fa678f4bb",
@@ -587,6 +611,14 @@
             "Value": {
                 "id": "4e9ce090-10c5-4d2c-a4c3-caef6fe1e05a",
                 "resourcePath": "sprites\\s_blocvert\\s_blocvert.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "df75b531-be7a-4137-8152-ef31da2f9b04",
+            "Value": {
+                "id": "8fcb4971-b32c-4e74-b67e-dc3252b32fa4",
+                "resourcePath": "sprites\\s_coinenigme4\\s_coinenigme4.yy",
                 "resourceType": "GMSprite"
             }
         },
