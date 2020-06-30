@@ -7,3 +7,6 @@ if(room == r_lobby) {
 } else {
 	
 }
+if(room == r_enigme4) {
+	can_jump = false;
+}

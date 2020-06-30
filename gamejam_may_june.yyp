@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "cb365ea7-923e-4085-b762-5298dcc9e016",
+            "Value": {
+                "id": "8c9f276d-5752-4618-a2f4-5cdbcd68bba2",
+                "resourcePath": "objects\\o_blocparent\\o_blocparent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "4c1616d0-c4e5-4b04-988f-5831c901e628",
