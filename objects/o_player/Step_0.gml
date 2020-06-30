@@ -9,6 +9,12 @@ up_release = keyboard_check_released(vk_up);
 
 #endregion
 
+#region Player hit death zone
+if (current_player_state != Player.idle and place_meeting(x, y, o_ph_killing)) {
+	current_player_state = Player.dead;
+}
+#endregion
+
 #region State Machine
 switch(current_player_state) {
 #region Moving state
@@ -54,6 +60,25 @@ switch(current_player_state) {
 		}
 		
 		move(o_ph_obstacle);
+		
+		// Fix ledge collision detection
+		var _falling = y - yprevious > 0;
+		var _wasnt_wall = !position_meeting(x + image_xscale, yprevious, o_ph_obstacle);
+		var _is_wall = position_meeting(x + image_xscale, y, o_ph_obstacle);
+		
+		if(_falling and _wasnt_wall and _is_wall) {
+			speed_x = 0;
+			
+			// Move against the ledge
+			while(!place_meeting(x + image_xscale, y, o_ph_obstacle)) {
+				x += image_xscale;
+			}
+			
+			// Check vertical position
+			while (position_meeting(x + image_xscale, y - 1, o_ph_obstacle)) {
+				y -= 1;	
+			}
+		}
 	break;
 #endregion
 #region Jumping state
@@ -63,12 +88,12 @@ switch(current_player_state) {
 #endregion
 #region Dead state
 	case Player.dead:
-		current_player_state = Player.idle;
 		// Play explosion sound
+		audio_play_sound(a_explosion, 4, false);
+		sprite_index = s_player_death;
 
-		image_index = 3;
-
-		alarm[0] = 60;
+		alarm[0] = 110;
+		current_player_state = Player.idle;
 	break;
 #endregion
 #region Door state
@@ -82,6 +107,5 @@ switch(current_player_state) {
 	break;
 #endregion
 }
-
 
 #endregion

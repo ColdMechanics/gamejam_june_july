@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "2378d93c-7587-4d15-b8cb-d96b11efcbb0",
+            "Value": {
+                "id": "7bc286f0-11e7-45d1-b1ed-5d8a5d57519e",
+                "resourcePath": "sounds\\a_explosion\\a_explosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "247df887-0fca-4cf8-ab10-68058addad37",
             "Value": {
                 "id": "83f4fdf6-f522-480b-a85d-6bedfff43d97",
@@ -199,19 +207,19 @@
             }
         },
         {
-            "Key": "37a21c68-441e-4f98-b8ce-06a46276f086",
-            "Value": {
-                "id": "92a23128-c7c9-4bf7-a60b-edcd02780601",
-                "resourcePath": "sounds\\a_factory_background\\a_factory_background.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "35f9fe2c-c7be-4419-ab7d-f9894a320580",
             "Value": {
                 "id": "f3941880-a120-4f6b-b300-b8441e6897b0",
                 "resourcePath": "sprites\\s_murenigme4\\s_murenigme4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "37a21c68-441e-4f98-b8ce-06a46276f086",
+            "Value": {
+                "id": "92a23128-c7c9-4bf7-a60b-edcd02780601",
+                "resourcePath": "sounds\\a_factory_background\\a_factory_background.yy",
+                "resourceType": "GMSound"
             }
         },
         {
