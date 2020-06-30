@@ -1,6 +1,7 @@
 /// @description Initialize bridge variables
 
 // Make the exit sign flash when all bridge completed
+
 var _bridge_completed = variable_global_exists("part_1_completed") and variable_global_get("part_1_completed") and
 						variable_global_exists("part_2_completed") and variable_global_get("part_2_completed") and 
 						variable_global_exists("part_3_completed") and variable_global_get("part_3_completed") and 
