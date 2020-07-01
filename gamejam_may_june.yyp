@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "823c7894-724d-4b4a-8e68-281647f5d831",
+            "Value": {
+                "id": "50e50b9e-212b-4753-817b-67d80ba019e6",
+                "resourcePath": "objects\\o_piedestalparent\\o_piedestalparent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8601178a-512c-4c99-9e2e-475b9e5e5f0b",
             "Value": {
                 "id": "37594edb-32d3-414a-8825-803026c6ce81",

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_blocnoir",
     "eventList": [
-        
+        {
+            "id": "34e3f7a8-c4f6-471d-9ea2-a1a8c933d7e4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "b3af63b7-5b61-482c-8a10-9d2438aa75b9"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

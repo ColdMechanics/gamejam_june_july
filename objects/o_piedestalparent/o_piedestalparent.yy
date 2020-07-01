@@ -1,28 +1,18 @@
 {
-    "id": "cb365ea7-923e-4085-b762-5298dcc9e016",
+    "id": "823c7894-724d-4b4a-8e68-281647f5d831",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_blocparent",
+    "name": "o_piedestalparent",
     "eventList": [
         {
-            "id": "12d14aa7-944f-446b-a602-9cc4f802fff8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 32,
-            "eventtype": 9,
-            "m_owner": "cb365ea7-923e-4085-b762-5298dcc9e016"
-        },
-        {
-            "id": "0943849a-254f-4311-bba6-83bd405cf8fd",
+            "id": "a0930fe1-9701-4e26-bf07-2c1355f2d8f2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "cb365ea7-923e-4085-b762-5298dcc9e016"
+            "m_owner": "823c7894-724d-4b4a-8e68-281647f5d831"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "b1cdebfc-46c9-4c2a-83c9-40c0bbd037d7",
+            "id": "8dce1704-f06c-4d12-a5b4-1b838e539bfc",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -53,11 +43,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "carried",
+            "varName": "blocontop",
             "varType": 3
         },
         {
-            "id": "a2cd02b4-d309-492e-8d44-28033323e003",
+            "id": "98333a47-01ff-4bfa-807a-49e94a3e00bb",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -67,7 +57,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "placedontop",
+            "varName": "playerpresent",
             "varType": 3
         }
     ],
