@@ -1,10 +1,8 @@
 /// @description Initialise play state
 enum Player {
 	moving,
-	jumping,
 	dead,
-	door,
-	idle
+	door
 }
 
 current_player_state = Player.moving;

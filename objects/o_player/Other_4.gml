@@ -1,9 +1,6 @@
 current_player_state = Player.moving;
+image_alpha = 1;
 
 if(room == r_lobby) {
 	can_jump = false;
-	audio_stop_sound(a_factory_background);
-	audio_play_sound(a_factory_background, 5, true);
-} else {
-	audio_stop_sound(a_factory_background);
 }

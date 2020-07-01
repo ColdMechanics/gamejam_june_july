@@ -9,16 +9,17 @@ up_release = keyboard_check_released(vk_up);
 
 #endregion
 
-#region Player hit death zone
-if (current_player_state != Player.idle and place_meeting(x, y, o_ph_killing)) {
-	current_player_state = Player.dead;
-}
-#endregion
-
 #region State Machine
 switch(current_player_state) {
 #region Moving state
-	case Player.moving:	
+	case Player.moving:
+	
+		// Collide with killing zone
+		if (place_meeting(x, y, o_ph_killing)) {
+			player_die();
+			return;
+		}
+		
 		if(speed_x == 0) {
 			sprite_index = s_player_idle;
 		} else {
@@ -81,29 +82,17 @@ switch(current_player_state) {
 		}
 	break;
 #endregion
-#region Jumping state
-	case Player.jumping:
-	
-	break;
-#endregion
 #region Dead state
 	case Player.dead:
-		// Play explosion sound
-		audio_play_sound(a_explosion, 4, false);
 		sprite_index = s_player_death;
-
-		alarm[0] = 110;
-		current_player_state = Player.idle;
 	break;
 #endregion
 #region Door state
 	case Player.door:
-		image_alpha = 0;
-	break;
-#endregion
-#region Idle state
-	case Player.idle:
-		// Do nothing!
+		// Fade Out
+		if(image_alpha > 0) {
+			image_alpha	-= 0.05;
+		}
 	break;
 #endregion
 }
