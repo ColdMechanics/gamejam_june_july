@@ -20,3 +20,13 @@ if ((l0935DF9D_0 > 0))
 	/// @DnDArgument : "var" ""Pour obtenir l'objet de votre desir,\nL'enigme qui suit devra etre resolue.\n\nSur les piedestaux des blocs devront gesir,\nPour reussir la suite devra etre lue.\n\nLes bons pigments devront etre choisis,\nEt dans le bon ordre ils devront etre mis.\n\nIgnorer le poeme qui suit n'est pas une option,\nCar dans ses vers se trouve la solution.\n\n\nDe par les oceans j'ai navigue,\net dans cette jungle je me suis arrete.\nAlors que la lune veille sur mon labeur,\nj'enterre ces pieces d'or si cheres a mon coeur.""
 	draw_text(x + -50, y + -500,  + string("Pour obtenir l'objet de votre desir,\nL'enigme qui suit devra etre resolue.\n\nSur les piedestaux des blocs devront gesir,\nPour reussir la suite devra etre lue.\n\nLes bons pigments devront etre choisis,\nEt dans le bon ordre ils devront etre mis.\n\nIgnorer le poeme qui suit n'est pas une option,\nCar dans ses vers se trouve la solution.\n\n\nDe par les oceans j'ai navigue,\net dans cette jungle je me suis arrete.\nAlors que la lune veille sur mon labeur,\nj'enterre ces pieces d'or si cheres a mon coeur."));
 }
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 711A49BA
+/// @DnDArgument : "x" "-40"
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "-70"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""space to\nreset room""
+draw_text(x + -40, y + -70, string("space to\nreset room") + "");

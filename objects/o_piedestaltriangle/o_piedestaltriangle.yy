@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "o_piedestaltriangle",
     "eventList": [
-        {
-            "id": "618170d3-f01b-479e-ae0a-b284659fcf10",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "6911ee1f-1e13-4f2e-807b-9728413dcb85"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

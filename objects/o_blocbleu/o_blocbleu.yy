@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "o_blocbleu",
     "eventList": [
-        {
-            "id": "9a1b5760-0615-42fb-ab2b-c3ed9174d45d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "f9676ce5-433a-44a2-965d-115dee4f2c59"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

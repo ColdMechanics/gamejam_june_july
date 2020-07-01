@@ -45,20 +45,6 @@
             "value": "0",
             "varName": "blocontop",
             "varType": 3
-        },
-        {
-            "id": "98333a47-01ff-4bfa-807a-49e94a3e00bb",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "playerpresent",
-            "varType": 3
         }
     ],
     "solid": false,
