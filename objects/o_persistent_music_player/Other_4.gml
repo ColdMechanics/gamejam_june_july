@@ -13,6 +13,9 @@ switch(room) {
 	case r_enigme_1:
 		audio_play_sound(room_1_music, 6, true);
 	break;
+	case r_enigme_1_1:
+		audio_play_sound(room_1_1_music, 6, true);
+	break;
 	case r_enigme_2:
 		audio_play_sound(room_2_music, 6, true);
 	break;

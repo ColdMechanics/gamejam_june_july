@@ -56,8 +56,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "noone",
+            "value": "a_factory_background",
             "varName": "room_1_music",
+            "varType": 5
+        },
+        {
+            "id": "7a01b992-22fc-4f94-9b41-0dcc3f66eb52",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "a_space_music",
+            "varName": "room_1_1_music",
             "varType": 5
         },
         {
