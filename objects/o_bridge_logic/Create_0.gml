@@ -14,7 +14,7 @@ if (_bridge_completed) {
 
 // Add the unlock bridge pieces
 for ( var _id = 0; _id < 4; ++_id) {
-	var _part_competed = "part_" + string(_id + 1) + "_completed";
+	var _part_competed = create_part_completed_variable(_id);
 	if (variable_global_exists(_part_competed) and variable_global_get(_part_competed)) {
 		var _bridge = instance_create_layer(bridge_x + _id * 32, bridge_y, "Bridge", o_bridge);
 		_bridge.image_index = _id;

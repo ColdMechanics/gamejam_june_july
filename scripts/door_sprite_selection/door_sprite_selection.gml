@@ -1,3 +1,5 @@
+/// @description door_sprite_select()
+
 switch(current_door_state) {
 	case DoorState.Open:
 		image_index = 2 - player_in_front * 2;

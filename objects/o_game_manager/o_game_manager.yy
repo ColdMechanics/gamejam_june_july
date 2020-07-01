@@ -1,15 +1,24 @@
 {
-    "id": "341e9771-6f5a-40ac-a683-391a7df3849d",
+    "id": "33286060-aa41-49bc-b22b-f2034e68f538",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_ph_obstacle",
+    "name": "o_game_manager",
     "eventList": [
-        
+        {
+            "id": "5f1ee08d-2f89-41ae-95c6-b6c9e3feb310",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 27,
+            "eventtype": 9,
+            "m_owner": "33286060-aa41-49bc-b22b-f2034e68f538"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "a4408499-b908-4930-8cc1-ffea39318a8c",
-    "persistent": false,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a704c939-331d-4aab-8fdf-ad1445ab3d50",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": false
 }
