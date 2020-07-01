@@ -13,7 +13,7 @@ if(player_in_front) {
 		_player.current_player_state = Player.door;
 		current_door_state = DoorState.Open;
 		
-		alarm[0] = 100;
+		alarm[0] = 90;
 	}
 }
 else {

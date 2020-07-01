@@ -183,6 +183,20 @@
             "value": "-9",
             "varName": "jump_height",
             "varType": 0
+        },
+        {
+            "id": "13ffbedb-55e9-4f35-abae-e74ac9d97d47",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "carrying",
+            "varType": 3
         }
     ],
     "solid": false,
