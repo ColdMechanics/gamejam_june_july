@@ -1,18 +1,28 @@
 {
-    "id": "d4c4ffa2-a2c2-4127-846c-d087a3f14839",
+    "id": "e121fd15-d984-42b1-91b9-f636af7acb51",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_bridge",
+    "name": "o_bridge_prize4",
     "eventList": [
         {
-            "id": "74492a42-040f-4504-b57c-fdb7c1ffbc02",
+            "id": "91012f8c-8a50-46d0-91e9-cfa6284ff34b",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": false,
+            "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "d4c4ffa2-a2c2-4127-846c-d087a3f14839"
+            "enumb": 32,
+            "eventtype": 9,
+            "m_owner": "e121fd15-d984-42b1-91b9-f636af7acb51"
+        },
+        {
+            "id": "4e253c4e-18d8-4547-b23a-ceb2a14001de",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "e121fd15-d984-42b1-91b9-f636af7acb51"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -34,5 +44,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "b74431c2-ea37-4c3d-b887-127ab4a3e33b",
-    "visible": true
+    "visible": false
 }

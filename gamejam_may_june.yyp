@@ -671,19 +671,19 @@
             }
         },
         {
-            "Key": "cc611e2b-5272-4857-adba-98ed88da58c4",
-            "Value": {
-                "id": "f5352530-7ba6-434d-af3f-4e48c8de9a2d",
-                "resourcePath": "views\\cc611e2b-5272-4857-adba-98ed88da58c4.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "cb365ea7-923e-4085-b762-5298dcc9e016",
             "Value": {
                 "id": "8c9f276d-5752-4618-a2f4-5cdbcd68bba2",
                 "resourcePath": "objects\\o_blocparent\\o_blocparent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cc611e2b-5272-4857-adba-98ed88da58c4",
+            "Value": {
+                "id": "f5352530-7ba6-434d-af3f-4e48c8de9a2d",
+                "resourcePath": "views\\cc611e2b-5272-4857-adba-98ed88da58c4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -756,6 +756,14 @@
                 "id": "89b3fb86-f787-47a7-93d4-a72d550c86d8",
                 "resourcePath": "sprites\\s_player_teleportation\\s_player_teleportation.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e121fd15-d984-42b1-91b9-f636af7acb51",
+            "Value": {
+                "id": "b1d01f74-05f8-45a1-9542-ce31dd4be007",
+                "resourcePath": "objects\\o_bridge_prize4\\o_bridge_prize4.yy",
+                "resourceType": "GMObject"
             }
         },
         {
