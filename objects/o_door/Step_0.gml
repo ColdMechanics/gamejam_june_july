@@ -5,7 +5,7 @@ player_in_front = place_meeting(x, y, o_player);
 if(player_in_front) {
 	door_sprite_selection();
 	
-	if(keyboard_check_pressed(vk_space) and current_door_state == DoorState.Close) {
+	if(keyboard_check_pressed(vk_space) and (current_door_state == DoorState.Close or current_door_state == DoorState.Fail)) {
 		audio_play_sound(a_door_open, 4, false);
 		
 		var _player = instance_find(o_player, 0);

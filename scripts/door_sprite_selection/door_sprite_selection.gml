@@ -8,7 +8,8 @@ switch(current_door_state) {
 		image_index = 7 - player_in_front * 2;
 		break;
 	case DoorState.Success:
-		image_index = 6 - player_in_front * 2;
+		// The success door is unselectable
+		image_index = 6;
 		break;
 	default:
 		image_index = 3 - player_in_front * 2;
