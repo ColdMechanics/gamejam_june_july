@@ -1,6 +1,7 @@
 // Stop all music
 audio_stop_sound(lobby_music);
 audio_stop_sound(room_1_music);
+audio_stop_sound(room_1_1_music);
 audio_stop_sound(room_2_music);
 audio_stop_sound(room_3_music);
 audio_stop_sound(room_4_music);

@@ -43,6 +43,16 @@
             "enumb": 4,
             "eventtype": 7,
             "m_owner": "ecd5a695-db04-4c01-b51f-5af61a9f1d96"
+        },
+        {
+            "id": "b4df481e-dc5d-4f35-aa5c-a641866df911",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "ecd5a695-db04-4c01-b51f-5af61a9f1d96"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -72,9 +82,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "0",
             "varName": "speed_y",
-            "varType": 1
+            "varType": 0
+        },
+        {
+            "id": "f4536eb6-8d00-4904-a506-53831963c5d2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "speed_x",
+            "varType": 0
         }
     ],
     "solid": false,
