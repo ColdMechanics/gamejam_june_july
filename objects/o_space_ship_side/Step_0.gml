@@ -6,6 +6,8 @@ switch (state) {
 		
 			_player.current_player_state = Player.door;
 			
+			audio_play_sound(a_take_off, 5, false);
+			
 			// Departure animation/cinematic
 			state = SpaceShipSideState.idle;
 			next_state = SpaceShipSideState.departure;

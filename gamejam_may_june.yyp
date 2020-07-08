@@ -1151,6 +1151,14 @@
             }
         },
         {
+            "Key": "d183fa19-1a34-495e-84b7-99e4069fb020",
+            "Value": {
+                "id": "9d3677d2-2e88-44c3-bbc1-9a972410fc77",
+                "resourcePath": "sounds\\a_take_off\\a_take_off.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d1ada9ba-9c89-4267-84e6-bd1207c58d1e",
             "Value": {
                 "id": "d9004c9b-f0e3-4d1c-8515-e37a1795c147",

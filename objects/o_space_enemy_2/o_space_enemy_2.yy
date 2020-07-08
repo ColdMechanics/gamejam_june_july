@@ -57,7 +57,7 @@
             "mvc": "1.0",
             "objectId": "bcb7be7a-35a4-4106-a7eb-9ed870fafaf0",
             "propertyId": "f0cfc2e2-3b9a-416d-9d3b-1ff653647540",
-            "value": "1"
+            "value": "2"
         }
     ],
     "parentObjectId": "c27ece84-d47f-4a1c-a19f-3962e9c0091e",
@@ -99,7 +99,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "60",
+            "value": "180",
             "varName": "fire_rate",
             "varType": 1
         }

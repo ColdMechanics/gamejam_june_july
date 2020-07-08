@@ -1,4 +1,4 @@
-if(score >= target_score and global.part_1_completed == false && had_spawn_one == false) {
+if(score >= global.roomDifficulty and global.part_1_completed == false && had_spawn_one == false) {
 	had_spawn_one = true;
 	
 	with (o_enemy_spawner) {

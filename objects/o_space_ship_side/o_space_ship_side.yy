@@ -99,6 +99,20 @@
             "value": "0",
             "varName": "speed_x",
             "varType": 0
+        },
+        {
+            "id": "ff6f58d4-5e45-45f9-b143-52a0b3c0246b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "120",
+            "varName": "room_difficulty",
+            "varType": 1
         }
     ],
     "solid": false,
