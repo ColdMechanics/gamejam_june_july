@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_space_enemy_2",
     "eventList": [
-        
+        {
+            "id": "267a22ae-7286-47bf-8e27-f6c8acadebbc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "2667e64a-e0b3-4d00-b866-aaa49ce31fd7"
+        },
+        {
+            "id": "98f14be1-397f-4877-9ae0-8a8eee6df3cb",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "2667e64a-e0b3-4d00-b866-aaa49ce31fd7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -38,7 +57,7 @@
             "mvc": "1.0",
             "objectId": "bcb7be7a-35a4-4106-a7eb-9ed870fafaf0",
             "propertyId": "f0cfc2e2-3b9a-416d-9d3b-1ff653647540",
-            "value": "2"
+            "value": "1"
         }
     ],
     "parentObjectId": "c27ece84-d47f-4a1c-a19f-3962e9c0091e",
@@ -56,7 +75,34 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "7c4e1d3e-c1ae-4a35-b68c-0be7f90791c6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "320",
+            "varName": "attack_range",
+            "varType": 1
+        },
+        {
+            "id": "519da3e0-cdde-4a8c-a04c-a11f2b5ed9ec",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "fire_rate",
+            "varType": 1
+        }
     ],
     "solid": false,
     "spriteId": "94b30de3-94bc-4618-b047-a1ba5729cc20",
