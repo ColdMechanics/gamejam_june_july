@@ -5,10 +5,10 @@
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "-46"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "o_blocblanc"
-/// @DnDSaveInfo : "object" "f5ae9ece-24d3-4d5e-9ad0-7d5b36c09687"
+/// @DnDArgument : "object" "o_blocvert"
+/// @DnDSaveInfo : "object" "4b3a159d-331d-40b3-8590-2cd5ac5e45dc"
 with(o_piedestallune) {
-var l6E651737_0 = instance_place(x + 0, y + -46, o_blocblanc);
+var l6E651737_0 = instance_place(x + 0, y + -46, o_blocvert);
 }
 if ((l6E651737_0 > 0))
 {
@@ -20,10 +20,10 @@ if ((l6E651737_0 > 0))
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-46"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "o_blocnoir"
-	/// @DnDSaveInfo : "object" "b3af63b7-5b61-482c-8a10-9d2438aa75b9"
+	/// @DnDArgument : "object" "o_blocjaune"
+	/// @DnDSaveInfo : "object" "9b50fcf6-d9f0-4434-a5e9-99d7eea9294c"
 	with(o_piedestalcarre) {
-	var l77923684_0 = instance_place(x + 0, y + -46, o_blocnoir);
+	var l77923684_0 = instance_place(x + 0, y + -46, o_blocjaune);
 	}
 	if ((l77923684_0 > 0))
 	{
@@ -35,10 +35,10 @@ if ((l6E651737_0 > 0))
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y" "-46"
 		/// @DnDArgument : "y_relative" "1"
-		/// @DnDArgument : "object" "o_blocmauve"
-		/// @DnDSaveInfo : "object" "1d9552f3-a842-42c3-9628-dc82a853cffa"
+		/// @DnDArgument : "object" "o_blocbleu"
+		/// @DnDSaveInfo : "object" "f9676ce5-433a-44a2-965d-115dee4f2c59"
 		with(o_piedestalcercle) {
-		var l08CDAA1C_0 = instance_place(x + 0, y + -46, o_blocmauve);
+		var l08CDAA1C_0 = instance_place(x + 0, y + -46, o_blocbleu);
 		}
 		if ((l08CDAA1C_0 > 0))
 		{
@@ -50,10 +50,10 @@ if ((l6E651737_0 > 0))
 			/// @DnDArgument : "x_relative" "1"
 			/// @DnDArgument : "y" "-46"
 			/// @DnDArgument : "y_relative" "1"
-			/// @DnDArgument : "object" "o_blocbleu"
-			/// @DnDSaveInfo : "object" "f9676ce5-433a-44a2-965d-115dee4f2c59"
+			/// @DnDArgument : "object" "o_blocblanc"
+			/// @DnDSaveInfo : "object" "f5ae9ece-24d3-4d5e-9ad0-7d5b36c09687"
 			with(o_piedestaltriangle) {
-			var l1258D9BA_0 = instance_place(x + 0, y + -46, o_blocbleu);
+			var l1258D9BA_0 = instance_place(x + 0, y + -46, o_blocblanc);
 			}
 			if ((l1258D9BA_0 > 0))
 			{
