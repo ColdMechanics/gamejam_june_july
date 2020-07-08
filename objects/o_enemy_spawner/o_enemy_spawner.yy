@@ -1,10 +1,19 @@
 {
-    "id": "bcb7be7a-35a4-4106-a7eb-9ed870fafaf0",
+    "id": "c057b47f-e619-4990-af7f-183da051267b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_space_enemy_parent",
+    "name": "o_enemy_spawner",
     "eventList": [
-        
+        {
+            "id": "145a65cc-362b-41fd-93bb-37f167ff3e86",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "c057b47f-e619-4990-af7f-183da051267b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
