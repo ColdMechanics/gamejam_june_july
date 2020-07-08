@@ -54,9 +54,22 @@ switch(current_player_state) {
 		if(right or left) {
 			speed_x += (right - left) * acceleration;
 			var _current_max = shift and can_dash ? running_max_speed : max_speed;
-			speed_x = clamp(speed_x, -_current_max, _current_max);
+			
+			var left_max = -_current_max;
+			var right_max = _current_max;
+			
+			if (is_affected_by_wind) {
+				left_max += is_wind_going_left ? -2 : 2;
+				right_max += is_wind_going_left ? -2 : 2;
+			}
+			
+			speed_x = clamp(speed_x, left_max, right_max);
 		} else {
 			apply_friction(acceleration);
+			
+			if (is_affected_by_wind and abs(speed_x) < 2) {
+				speed_x = is_wind_going_left ? -2 : 2;
+			}
 		}
 		
 		move(o_ph_obstacle);
