@@ -211,6 +211,34 @@
             "value": "0",
             "varName": "carrying",
             "varType": 3
+        },
+        {
+            "id": "3d45543a-c01e-45de-9827-956cb099bd4b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "is_affected_by_wind",
+            "varType": 3
+        },
+        {
+            "id": "a5da2a3a-0d16-4879-8052-c40425537a1f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "is_wind_going_left",
+            "varType": 3
         }
     ],
     "solid": false,
