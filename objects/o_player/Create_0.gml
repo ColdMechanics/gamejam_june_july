@@ -6,3 +6,5 @@ enum Player {
 }
 
 current_player_state = Player.moving;
+
+debug_counter = 0;
