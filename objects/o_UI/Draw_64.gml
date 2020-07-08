@@ -14,7 +14,7 @@ if(room == r_enigme_1_1) {
 	#region Draw Player Score
 
 	var _score_sprite_width = sprite_get_width(s_score);
-	var _score_x = room_width /2 - _score_sprite_width - armor_x;
+	var _score_x = room_width - _score_sprite_width - armor_x;
 	var _score_y = armor_y;
 
 	draw_set_halign(fa_right);

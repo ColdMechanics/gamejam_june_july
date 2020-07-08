@@ -1,0 +1,1 @@
+had_spawn_one = global.part_1_completed;

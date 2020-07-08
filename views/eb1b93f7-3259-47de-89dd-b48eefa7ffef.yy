@@ -4,6 +4,7 @@
     "mvc": "1.1",
     "name": "eb1b93f7-3259-47de-89dd-b48eefa7ffef",
     "children": [
+        "d21f9733-bfa6-4c5c-8f0c-4283cf9797db",
         "366128ac-e3fe-401d-8797-6f8b4c1de0cb",
         "bcb7be7a-35a4-4106-a7eb-9ed870fafaf0",
         "c27ece84-d47f-4a1c-a19f-3962e9c0091e",
@@ -18,7 +19,8 @@
         "56cb5189-7105-489d-becf-93ab2a417114",
         "c3f1dcde-62bb-41a5-9851-a02ea485485f",
         "c057b47f-e619-4990-af7f-183da051267b",
-        "fafa5529-4f87-421d-ad2b-8e0313eaaeba"
+        "fafa5529-4f87-421d-ad2b-8e0313eaaeba",
+        "28d509ce-51fe-4e6e-8741-981dc3c1ca94"
     ],
     "filterType": "GMObject",
     "folderName": "enigme_1",

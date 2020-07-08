@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "28d509ce-51fe-4e6e-8741-981dc3c1ca94",
+            "Value": {
+                "id": "b0e95481-4f91-4e72-9fa3-115ff83dd20f",
+                "resourcePath": "objects\\o_prize_spawner\\o_prize_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c76cea5-a8f8-4507-bbcd-9364614d9a7a",
             "Value": {
                 "id": "a8113545-a9f8-4609-92e9-868031686d1a",
@@ -495,19 +503,19 @@
             }
         },
         {
-            "Key": "62b79b0a-2cb1-4bce-8d6f-62d081d7191a",
-            "Value": {
-                "id": "e10c84ae-0ba1-412e-bc69-70fbd9f60c6d",
-                "resourcePath": "sprites\\s_laser\\s_laser.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5e73b76b-5d09-408f-b40f-0973ae6f1f1f",
             "Value": {
                 "id": "3cbbae47-eefc-4451-b54e-a5f01a2b9455",
                 "resourcePath": "objects\\o_bridge_prize2\\o_bridge_prize2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "62b79b0a-2cb1-4bce-8d6f-62d081d7191a",
+            "Value": {
+                "id": "e10c84ae-0ba1-412e-bc69-70fbd9f60c6d",
+                "resourcePath": "sprites\\s_laser\\s_laser.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -591,19 +599,19 @@
             }
         },
         {
-            "Key": "720adb0e-c5e3-4f9a-9a0f-4d52b10da684",
-            "Value": {
-                "id": "72b9746e-fa20-440c-97d1-1a15a44628e8",
-                "resourcePath": "sprites\\s_armor\\s_armor.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "70e696a0-1cde-4eb3-a8f6-a73f8c35dd1b",
             "Value": {
                 "id": "3a3a2b2b-c3a8-48eb-a830-43b3c03ae666",
                 "resourcePath": "objects\\o_bridge_prize3\\o_bridge_prize3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "720adb0e-c5e3-4f9a-9a0f-4d52b10da684",
+            "Value": {
+                "id": "72b9746e-fa20-440c-97d1-1a15a44628e8",
+                "resourcePath": "sprites\\s_armor\\s_armor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1148,6 +1156,14 @@
                 "id": "d9004c9b-f0e3-4d1c-8515-e37a1795c147",
                 "resourcePath": "views\\d1ada9ba-9c89-4267-84e6-bd1207c58d1e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d21f9733-bfa6-4c5c-8f0c-4283cf9797db",
+            "Value": {
+                "id": "c6b5132d-1ca3-455d-81e1-fc70a517013b",
+                "resourcePath": "objects\\o_bridge_prize1\\o_bridge_prize1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
