@@ -1,5 +1,6 @@
-///@arg number
-///@arg enemy
+/// @description spawn_enemies(number, enemy)
+/// @arg number
+/// @arg enemy
 
 var _number = argument0;
 var _enemy = argument1;
@@ -14,5 +15,5 @@ repeat(_number) {
 	var _x = _center_x + lengthdir_x(_distance, _direction);
 	var _y = _center_y + lengthdir_y(_distance, _direction);
 		
-	instance_create_layer(_x, _y, "Instances", _enemy);
+	instance_create_layer(_x, _y, "Enemies", _enemy);
 }

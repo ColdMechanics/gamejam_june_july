@@ -1,3 +1,4 @@
+/// @description bounce_off_object(object, acceleration, max_speed)
 ///@arg object
 ///@arg acceleration
 ///@arg max_speed

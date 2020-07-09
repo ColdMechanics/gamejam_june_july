@@ -1,4 +1,4 @@
-if(room == r_enigme_1_1) {
+if(room == r_enigma_1_1) {
 	#region Draw Player Ship armor
 	var _player_ship = instance_find(o_player_ship, 0);
 

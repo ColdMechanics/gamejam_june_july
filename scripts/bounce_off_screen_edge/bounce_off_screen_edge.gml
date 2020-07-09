@@ -1,3 +1,5 @@
+/// @description bounce_off_screen_edge()
+
 var _half_width = sprite_get_width(sprite_index) / 2;
 var _half_height = sprite_get_height(sprite_index) / 2;
 

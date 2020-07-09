@@ -1,3 +1,5 @@
+/// @description create_left_laser()
+
 var _distance = sprite_get_width(sprite_index) / 4;
 var _angle = 60;
 

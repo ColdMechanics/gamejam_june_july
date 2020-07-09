@@ -4,10 +4,10 @@
 window_set_cursor(cr_none);
 
 switch(room) {
-	case r_enigme_1:
+	case r_enigma_1:
 		global.part_1_completed = false;
 	break;
-	case r_enigme_1_1:
+	case r_enigma_1_1:
 		// See a cross cursor for the enigma shooter part
 		window_set_cursor(cr_cross);
 	break;

@@ -23,7 +23,7 @@
         "28d509ce-51fe-4e6e-8741-981dc3c1ca94"
     ],
     "filterType": "GMObject",
-    "folderName": "enigme_1",
+    "folderName": "enigma_1",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

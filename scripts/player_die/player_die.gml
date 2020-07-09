@@ -1,4 +1,5 @@
 /// @description player_die()
+
 if(current_player_state != Player.dead) {
 	current_player_state = Player.dead;
 

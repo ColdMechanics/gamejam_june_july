@@ -11,10 +11,10 @@ switch(room) {
 	case r_lobby:
 		audio_play_sound(lobby_music, 6, true);
 	break;
-	case r_enigme_1:
+	case r_enigma_1:
 		audio_play_sound(room_1_music, 6, true);
 	break;
-	case r_enigme_1_1:
+	case r_enigma_1_1:
 		audio_play_sound(room_1_1_music, 6, true);
 	break;
 	case r_enigme_2:
