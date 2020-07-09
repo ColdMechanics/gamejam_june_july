@@ -13,7 +13,16 @@ for ( var _id = 0; _id < 4; ++_id) {
 		
 		// Create a barrier on the bridge to block the player
 		if (not _bridge_completed) {
-			instance_create_layer(bridge_ph_x + _id * 32, bridge_ph_y - 32, "Instances", o_ph_bridge);
+			instance_create_layer(bridge_ph_x + _id * 32, bridge_ph_y - 32, "BridgeBarrier", o_ph_bridge);
 		}
 	}
+}
+
+if (_bridge_completed) {
+	var _layer_id = layer_get_id("BridgeBarrier");
+	instance_deactivate_layer(_layer_id);
+
+	var _exit_sign = instance_find(o_exit_sign, 0);
+	_exit_sign.flashing = true;
+	_exit_sign.alarm[0] = 10;
 }
